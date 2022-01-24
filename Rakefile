@@ -11,3 +11,9 @@ task :parse_file do
   cur_dir = File.dirname(__FILE__)
   sh "#{cur_dir}/parse_file.rb #{ENV['F']}"
 end
+
+desc 'Dump a Ruby object to NestedText and print on stdout'
+task :dump_string do
+  cur_dir = File.dirname(__FILE__)
+  sh "#{cur_dir}/dump_string.rb"
+end
