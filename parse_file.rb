@@ -4,4 +4,8 @@ require 'nestedtext'
 
 raise 'Provide path to nestedtext file to parse as argument.' if ARGV.length != 1
 
-pp NestedText.load_file(ARGV[0])
+begin
+  pp NestedText.load_file(ARGV[0])
+rescue NestedText::Error => e
+  puts "Caught an Error: #{e.message}"
+end
