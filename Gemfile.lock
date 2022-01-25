@@ -14,7 +14,7 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     method_source (1.0.0)
-    nestedtext (0.6.0)
+    nestedtext (1.1.0)
       warning (~> 1.2)
       word_wrap (~> 1.0)
     nokogiri (1.13.1-x86_64-darwin)
@@ -75,7 +75,7 @@ PLATFORMS
   x86_64-darwin-21
 
 DEPENDENCIES
-  nestedtext (~> 0.1)
+  nestedtext (~> 1.0)
   pry-byebug (~> 3.9)
   rake (~> 13.0)
   solargraph
