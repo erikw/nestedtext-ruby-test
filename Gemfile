@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'nestedtext', '~> 1.0'
+gem 'nestedtext', '~> 2.0'
 gem 'pry-byebug', '~> 3.9'
 gem 'rake', '~> 13.0', require: false
 gem 'solargraph', require: false
