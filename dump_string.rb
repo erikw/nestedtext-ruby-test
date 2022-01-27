@@ -11,8 +11,12 @@ obj = {
   "multiline\nkey" => 'value',
   'somekey' => "multiline\nstring"
 }
-
-# Custom object
-# obj = [Apple.new('Granny Smith', 5)]
-
 puts NestedText.dump(obj)
+puts '=' * 20
+
+# Custom object.
+apples = [
+  Apple.new('Granny Smith', 5),
+  Apple.new('Red Sun', 7)
+]
+puts apples.to_nt
