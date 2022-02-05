@@ -4,6 +4,11 @@
   ip: 192.167.1.1
   port: 8080
 -
+  name: local-service
+  ip: 0.0.0.0
+  port: 97
+  stable: false
+-
   name: aux-service
   ip: 17.245.14.2
   port: 67

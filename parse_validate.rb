@@ -30,7 +30,12 @@ data_success = NestedText.load_file(conf_success)
 result = coercer.validate(data_success)
 puts "#{conf_success} is #{result.valid? ? 'valid' : 'invalid'}"
 puts 'Validated data:'
-pp result.value
+servers = result.value
+pp servers
+
+# 'servers' now has the expected types e.g. boolean and integer.
+stable_servers = servers.select { |server| server['stable'] }
+port_sum = servers.map { |server| server['port'] }.sum
 
 puts "\n\n### Failure case"
 data_fail = NestedText.load_file(conf_fail)
