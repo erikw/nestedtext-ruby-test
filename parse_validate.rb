@@ -34,6 +34,7 @@ pp servers
 
 # 'servers' now has the expected types e.g. boolean and integer.
 stable_servers = servers.select { |server| server['stable'] }
+# Not a meaningful sum - just demonstrating that 'port's are integers and not strings anymore!
 port_sum = servers.map { |server| server['port'] }.sum
 
 puts "\n\n### Failure case"
