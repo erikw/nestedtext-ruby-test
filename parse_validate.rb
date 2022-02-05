@@ -11,7 +11,6 @@ script_dir = __dir__
 conf_success = "#{script_dir}/nt/config_example_success.nt"
 conf_fail = "#{script_dir}/nt/config_example_fail.nt"
 
-# TODO: make stable optional
 schema = RSchema.define do
   array(
     hash(
