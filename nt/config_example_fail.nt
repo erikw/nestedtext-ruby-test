@@ -1,0 +1,12 @@
+# This config is not adhering to the schema.
+-
+  name: global-service
+  ip: 192.167.1.1
+  # Port should be integer!
+  port: a string
+-
+  # Missing key name
+  ip: 17.245.14.2
+  port: 67
+  # Unstable server, don't use this
+  stable: false

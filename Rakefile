@@ -17,3 +17,9 @@ task :dump_string do
   cur_dir = File.dirname(__FILE__)
   sh "#{cur_dir}/dump_string.rb"
 end
+
+desc 'Parse a NestedText file and validate the result with an RSchema'
+task :parse_validate do
+  cur_dir = File.dirname(__FILE__)
+  sh "#{cur_dir}/parse_validate.rb"
+end

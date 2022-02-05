@@ -1,0 +1,12 @@
+# A list of services to connect to.
+-
+  name: global-service
+  ip: 192.167.1.1
+  port: 8080
+  stable: true
+-
+  name: aux-service
+  ip: 17.245.14.2
+  port: 67
+  # Unstable server, don't use this
+  stable: false
