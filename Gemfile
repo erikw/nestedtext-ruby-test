@@ -10,3 +10,6 @@ end
 
 gem 'nestedtext', '~> 2.0'
 gem 'rschema', '~> 3.2'
+
+# CVE-2018-25032
+gem "nokogiri", ">= 1.13.4"

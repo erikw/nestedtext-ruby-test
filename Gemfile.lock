@@ -82,6 +82,7 @@ PLATFORMS
 
 DEPENDENCIES
   nestedtext (~> 2.0)
+  nokogiri (>= 1.13.4)
   pry-byebug (~> 3.9)
   rake (~> 13.0)
   rschema (~> 3.2)
