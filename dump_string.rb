@@ -20,3 +20,5 @@ apples = [
   Apple.new('Red Sun', 7)
 ]
 puts apples.to_nt
+
+# NestedText.dump_file(obj, 'out.nt')
